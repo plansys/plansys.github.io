@@ -912,6 +912,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: #FF3B30;
 }
 
+.info-text {
+    max-width:40%;margin:0px auto;line-height:150%
+}
+
 @media (max-width:768px){
     .fixed-plugin{
         top: 80px;
@@ -923,5 +927,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     #video_background{
         display: none;
     }
-
+    .info-text {
+        max-width:80%;
+    }
 }
